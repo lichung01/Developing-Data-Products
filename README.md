@@ -15,7 +15,7 @@ The application is accesible in: https://lichung.shinyapps.io/Developing_Data_Pr
 
 After a presentation of the application is designed using slidify. The presentation could be visualized in:
 
-http://lichung.github.io/Data-Product-Presentation/index.html
+http://lichung01.github.io/Developing-Data-Products/index.html
 
 or in:
 
