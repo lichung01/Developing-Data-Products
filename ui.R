@@ -1,6 +1,7 @@
 library(shiny) 
 shinyUI(
-        pageWithSidebar(
+  navbarPage("BMI Analysis",tabPanel("Calculator", 
+          pageWithSidebar(
                 # Application title
                 headerPanel("Body Mass Index (BMI) Calculator"),
                 
@@ -38,5 +39,7 @@ shinyUI(
                         
                 )
                 
-        )   
+        )
+),
+        tabPanel("About",mainPanel(includeMarkdown("README.md"))))
 )
