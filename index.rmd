@@ -1,10 +1,9 @@
 ---
-
 title       : Developing Data Products
 subtitle    : Building Body Mass Index (BMI) calculator
 author      : HLC
 job         :  
-logo: # save image file in the directory ./assets/img
+logo:                       # save image file in the directory ./assets/img
 framework   : io2012        # {io2012, html5slides, shower, dzslides, revealjs, ...}
 theme: default
 highlighter : highlight.js  # {highlight.js, prettify, highlight}
@@ -12,25 +11,8 @@ hitheme     : tomorrow      # {tomorrow, default}
 widgets     : mathjax       # {mathjax, quiz, bootstrap}
 mode        : selfcontained # {standalone, draft}
 knit        : slidify::knit2slides
-
 ---
 
-<style>
-
-.title-slide {
-  background-color: #FFFFFF; /* #CBE7A5; #EDE0CF; #CA9F9D; */
-  /* background-image:url(http://goo.gl/EpXln); */
-}
-
-em {
-  font-style: italic;
-}
-
-strong {
-  font-weight: bold;
-}
-
-</style>
 
 ## <span style="color:blue">Description of Body Mass Index (BMI)</span>
 
@@ -81,7 +63,6 @@ return_analysis <- function(height, weight){
       ifelse(BMI_value < 40,"obese Class II","obese Class III")))))))
 }
 ```
-
 
 ---
 
