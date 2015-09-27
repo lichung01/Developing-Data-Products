@@ -13,6 +13,22 @@ mode        : selfcontained # {standalone, draft}
 knit        : slidify::knit2slides
 ---
 
+<style>
+
+.title-slide {
+  background-color: #FFFFFF; /* #CBE7A5; #EDE0CF; #CA9F9D; */
+  /* background-image:url(http://goo.gl/EpXln); */
+}
+
+em {
+  font-style: italic;
+}
+
+strong {
+  font-weight: bold;
+}
+
+</style>
 
 ## <span style="color:blue">Description of Body Mass Index (BMI)</span>
 
