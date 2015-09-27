@@ -9,7 +9,7 @@ framework   : io2012        # {io2012, html5slides, shower, dzslides, revealjs, 
 theme: default
 highlighter : highlight.js  # {highlight.js, prettify, highlight}
 hitheme     : tomorrow      # {tomorrow, default}
-widgets     : []            # {mathjax, quiz, bootstrap}
+widgets     : mathjax       # {mathjax, quiz, bootstrap}
 mode        : selfcontained # {standalone, draft}
 knit        : slidify::knit2slides
 
@@ -52,7 +52,7 @@ The BMI is an attempt to quantify the amount of tissue mass (muscle, fat, and bo
 
 The BMI is defined as the body mass divided by the square of the body height, and is universally expressed in units of kg/metre square, resulting from mass in kilograms and height in metres.
 
-<span style="color:red">BMI Formula = Weight / Height\^2</span>
+<span style="color:red">BMI Formula = Weight / $Height^2$</span>
 
 Using an example of height 1.72m and weight 65kg of a person:
 
