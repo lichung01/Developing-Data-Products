@@ -70,7 +70,6 @@ return_analysis <- function(height, weight){
 }
 ```
 
-
 ---
 
 ## <span style="color:blue">BMI and lifestyle?</span>
