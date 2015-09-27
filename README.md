@@ -17,6 +17,4 @@ After a presentation of the application is designed using slidify. The presentat
 
 http://lichung01.github.io/Developing-Data-Products/index.html
 
-or in:
 
-http://rpubs.com/ibonaranburu/21292
