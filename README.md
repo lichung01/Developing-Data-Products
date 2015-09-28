@@ -1,7 +1,6 @@
-Developing-Data-Products-Project
+Developing Data Products Project
 ================================
 
-This is the repository where Developing Data Products Project assignment is located.
 
 The shiny application developed is a Body Mass Index Calculator to advise the user on his/her body mass index using his/her height and weight information.
 
